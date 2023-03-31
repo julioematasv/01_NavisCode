@@ -25,7 +25,6 @@ let listadoPokemon = [
 for (let key in listadoPokemon){
     if (listadoPokemon[key].tipo == "fuego"){
         console.log(listadoPokemon[key].nombre + " Este es un Pokemon de Fuego");
-        let tipo =(listadoPokemon[key].nombre + " Este es un Pokemon de Fuego");
-        document.write(tipo + "<br>");
+        document.write(listadoPokemon[key].nombre + " Este es un Pokemon de Fuego <br>");
     }
 }
