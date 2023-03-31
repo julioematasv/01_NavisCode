@@ -1,4 +1,4 @@
-let listaPokemon = ["Bulbasaur", "Ivysaur", "Venusaur"];
+let listaPokemon = ["Bulbasaur", "Ivysaur", "Venusaur", "Charmander", "Charmeleon"];
 
 document.write("Este es el primer Pokemon: " + listaPokemon[0] +"<br>");
 document.write("Este es el segundo Pokemon: " + listaPokemon[1] +"<br>");
